@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- internal css -->
+    <link rel="stylesheet" href="./assets/style.css">
+
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- font awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- animate style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- aos github onscroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <style>
+      body {
+          overflow-x: hidden;
+      }
+  </style>
+
+    <title>Blog Roihan</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top animate__animated animate__fadeInDown">
+        <div class="container">
+          <a class="navbar-brand" href="#"> <i class="fa-solid fa-car-side"></i> Cars Specs </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="profile.html">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="education.html">Education</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cars
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="merc.html">Mercedes</a></li>
+                  <li><a class="dropdown-item" href="porsche.html">Porsche</a></li>
+                  <li><a class="dropdown-item" href="bmw.html">BMW</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html">Contact</a>
+              </li>
+            </ul>
+            <a class="icon" target="_blank" href="https://www.facebook.com/muhammad.roihan.92775"><i class="fa-brands fa-facebook"></i></a>
+            <a class="icon" target="_blank" href="https://x.com/uuxxwwyy"><i class="fa-solid fa-x mx-3"></i></a>
+            <a class="icon" target="_blank" href="https://www.instagram.com/roihanabdlh/"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </nav>
+      <!-- end navbar -->
+
+      <!-- hero -->
+      <div class="hero d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <h1 class="text-white fw-bold mb-4 animate__animated animate__fadeInUp">
+              Selamat Datang <br>
+              Di Blog Otomotif Saya
+              </h1>
+
+              <p class="text-white mb-4 text-opacity-100">
+              Blog pribadi saya yang membahas tentang otomotif
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end hero -->
+
+      <!-- section -->
+      <section id="pabrikan" class="pt-5 mt-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div data-aos="zoom-in" data-aos-duration="700" class="card">
+              <img src="./assets/img/Merc/logo.webp" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Mercedes-Benz</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <a href="merc.html" class="btn ">Lihat Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div data-aos="zoom-in" data-aos-duration="700" class="card">
+              <img src="./assets/img/Porsche/porsche-logo2-removebg-preview.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Porsche</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <a href="porsche.html" class="btn">Lihat Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div data-aos="zoom-in" data-aos-duration="700" class="card">
+              <img src="./assets/img/BMW/bmw-2020-new-logo.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">BMW</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                <a href="bmw.html" class="btn">Lihat Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div id="mercedes" class="card pt-5" style="width: 18rem;">
+          <img src="./assets/img/Merc/Mercedes-Logo.svg.png" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Mercedes-Benz</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="" class="btn btn-primary">Lihat Selengkapnya</a>
+          </div>
+        </div> -->
+      </section>
+      <!-- end  -->
+
+      <!-- footer -->
+<footer class="mt-5 py-5">
+    <div class="row container mx-auto">
+      <div class="footer-one col-lg-3 col-md-6 col-12">
+        <h2 class="text-white pb-4">Cars Specs</h2>
+        <p>Lorem ipsum dolor sit amet consectetur,<br> adipisicing elit. Labore eius consectetur modi <br> necessitatibus impedit iusto fugiat <br> unde ipsa hic ad.</p>
+      </div>
+      <div class="footer-one col-lg-3 col-md-6 col-12">
+        <h5 class="pb-5">Featured</h5>
+        <ul class="list-unstyled text-uppercase">
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="merc.html">Mercedes</a></li>
+          <li><a href="bmw.html">BMW</a></li>
+          <li><a href="porsche.html">Porsche</a></li>
+        </ul>
+      </div>
+      <div class="footer-one col-lg-3 col-md-6 col-12">
+        <h5 class="pb-5">Contact Us</h5>
+       <div>
+        <h6 class="text-uppercase">Address</h6>
+        <p>Jl. Sakti IV</p>
+       </div>
+       <div>
+        <h6 class="text-uppercase">Phone</h6>
+        <p>(+62) 123 4567 8900</p>
+       </div>
+       <div>
+        <h6 class="text-uppercase">E-Mail</h6>
+        <p>CarsSpecs@gmail.com</p>
+       </div>
+      </div>
+    </div>
+  
+    <div class="copyright mt-5">
+      <div class="row container mx-auto">
+        <div class="col-lg-4 col-md-6 col-12">
+          <img src="assets/img/payment.png" alt="">
+        </div>
+  
+        <div class="col-lg-4 col-md-6 col-12">
+          <p>Cars Specs &copy; 2023. All Right Reserved</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <a href="https://www.facebook.com/muhammad.roihan.92775"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/roihanabdlh/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://x.com/uuxxwwyy"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+      <!-- end footer -->
+
+      <!-- js bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <!-- animated on scroll -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>
